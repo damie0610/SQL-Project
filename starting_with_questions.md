@@ -3,10 +3,47 @@
 
 
 SQL Queries:
+```
+-- Using revenues as transaction_revenue
+SELECT 	
+	city, 
+	country, 
+	SUM(CASE WHEN revenue NOT BETWEEN 0 AND 999999 THEN NULL ELSE revenue END) as transaction_revenue,
+	RANK() OVER (ORDER BY SUM(revenue) DESC) AS rank
+FROM 
+	all_sessions_new asn
+JOIN 
+	analytics_clean ac ON asn.visit_id = ac.visit_id
+WHERE 
+	city != 'Unknown' AND country != 'Unknown'
+GROUP BY 1, 2
+HAVING 
+	SUM(revenue) > 0;
+```
+```
+-- Using total orders by city and country as there are more data points
+SELECT 	
+	city, 
+	country, 
+	SUM(CASE WHEN total_ordered NOT BETWEEN 0 AND 999999 THEN NULL ELSE total_ordered END) as transaction_revenue,
+	RANK() OVER (ORDER BY SUM(total_ordered) DESC) AS rank
+FROM 
+	all_sessions_new asn
+JOIN 
+	sales_by_sku_new ssn ON asn.product_sku = ssn.product_sku
+WHERE 
+	city != 'Unknown' AND country != 'Unknown'
+GROUP BY 1, 2
+HAVING 
+	SUM(total_ordered) > 0;
 
+```
 
 
 Answer:
+```
+Using revenue data:
+![image](https://github.com/damie0610/SQL-Project/assets/134011574/1d76cb58-15f9-4ef1-aa9d-0d0537cff212)
 
 
 
