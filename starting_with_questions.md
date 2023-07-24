@@ -43,7 +43,8 @@ HAVING
 Answer:
 ```
 Using revenue data:
-![image](https://github.com/damie0610/SQL-Project/assets/134011574/1d76cb58-15f9-4ef1-aa9d-0d0537cff212)
+![Q1A](https://github.com/damie0610/SQL-Project/assets/134011574/e99a56ba-3074-4d24-be14-5f92acb14d86)
+
 
 
 
