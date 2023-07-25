@@ -54,7 +54,7 @@ ORDER BY 5 DESC
 
 ![image](https://github.com/damie0610/SQL-Project/assets/134011574/e570df9f-ea8a-4ddd-b4eb-ff7ad61b614a)
 
-The monthly orders appear to have risen fairly steadily each month since October 2016, taking a dive in the most recent month (August 2017). Howeverm this data spans August 8, 2016 to August 8, 2017 - it's the beginning of the month and sales would likely pick up during the course of the month given the pattern over the last year.
+The monthly orders appear to have risen fairly steadily each month since October 2016, taking a dive in the most recent month (August 2017). However, this data spans August 8, 2016 to August 8, 2017 - it's the beginning of the month and sales would likely pick up during the course of the month given the pattern over the last year.
 
 
 
