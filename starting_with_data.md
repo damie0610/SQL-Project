@@ -61,7 +61,7 @@ The monthly orders appear to have risen fairly steadily each month since October
 > # **Question 2: Examine total orders across channel groups on the site.** 
 
 **SQL Queries:**
-In this query, I worked with the ```channel_group``` category from analytics_new as it had one category more than the corresponding column in ```all_sessions_new```.
+In this query, I worked with the ```channel_group``` category from ```analytics_new``` as it had one category more than the corresponding column in ```all_sessions_new```.
 
 ```
 SELECT 
