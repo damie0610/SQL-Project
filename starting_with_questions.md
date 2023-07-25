@@ -2,7 +2,7 @@
 > ### **Question 1: Which cities and countries have the highest level of transaction revenues on the site?**
 
 
-SQL Queries:
+**SQL Queries:**
 ```
 -- Using revenues as transaction_revenue
 SELECT 	
@@ -40,7 +40,7 @@ HAVING
 ```
 
 
-Answer:
+**Answer:**
 *Using revenue data*
 
 ![Q1A](https://github.com/damie0610/SQL-Project/assets/134011574/7addf939-6f7f-4c40-bb3e-74697aebb57c)
@@ -56,7 +56,7 @@ Answer:
 > ### **Question 2: What is the average number of products ordered from visitors in each city and country?**
 
 
-SQL Queries:
+**SQL Queries:**
 ```
 SELECT	'City' AS Locale,
 		city AS Locale_Name,
@@ -99,7 +99,7 @@ ORDER BY 3 DESC
 ```
 
 
-Answer:
+**Answer:**
 
 ![Q2](https://github.com/damie0610/SQL-Project/assets/134011574/89a1a367-6152-4f40-bd3d-a1f9144f0269)
 
@@ -142,7 +142,7 @@ WHERE
 ```
 
 
-Answer:
+**Answer:**
 
 ![Q3](https://github.com/damie0610/SQL-Project/assets/134011574/3f3fc373-837a-4d6c-8d7f-63efb60b6f67)
 
@@ -153,7 +153,7 @@ Answer:
 > ### **Question 4: What is the top-selling product from each city/country? Can we find any pattern worthy of noting in the products sold?**
 
 
-SQL Queries:
+**SQL Queries:**
 ```
 /*Using revenue data*/
 
@@ -269,7 +269,7 @@ ORDER BY sales DESC, locale_name
 ;
 ```
 
-Answer:
+**Answer:**
 
 *Using revenue data*
 
@@ -283,7 +283,7 @@ Answer:
 
 > ### **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
-SQL Queries:
+**SQL Queries:**
 ```
 /*Using revenue data*/
 
@@ -320,7 +320,7 @@ ORDER BY 2 DESC, 1
 ```
 
 
-Answer:
+**Answer:**
 
 *Using revenue data*
 
