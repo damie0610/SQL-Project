@@ -13,6 +13,7 @@ My goal was to explore the attributes of each entity of the database, establish 
 
 
 ## Process
+
 ### Data Importation & Exploration:
  
 Examining and understanding the characteristics and contents within the dataset, the datatypes, issues and anomalies - to determine appropriate paths for importing the data, identify features that are connected and ways to approach data cleaning and analysis.
@@ -28,7 +29,14 @@ Usinq SQL queries, information regarding patterns and insights from the ecommerc
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
-(discuss challenges you faced in the project)
+
+### Insufficient Context: 
+The database is provided with scanty context around the origin of the data which makes for a lot of assumption in the data transformation and analysis - hardly ideal for real-world data handling.
+
+### High Volume of Duplicates: 
+One of the datasets had duplicates had an inordinate amount of duplicates which caused constant crashes of the server. 
+
+### Identifying Connections & Creating Primary Keys
 
 ## Future Goals
 (what would you do if you had more time?)
