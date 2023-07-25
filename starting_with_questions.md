@@ -47,6 +47,7 @@ Answer:
 
 
 *Using ordered quantity as it has more data points*
+
 ![Q1B](https://github.com/damie0610/SQL-Project/assets/134011574/c3153526-57b3-4de8-84af-794b16819d3f)
 
 
@@ -271,10 +272,12 @@ ORDER BY sales DESC, locale_name
 Answer:
 
 *Using revenue data*
+
 ![Q4A](https://github.com/damie0610/SQL-Project/assets/134011574/02cbb2a4-acc3-4dcb-9780-ea6b0f61b712)
 
 
 *Using ordered quantity*
+
 ![Q4B](https://github.com/damie0610/SQL-Project/assets/134011574/71a2ed49-15f5-452e-a6a5-f44fdc1a8ae9)
 
 
@@ -320,9 +323,11 @@ ORDER BY 2 DESC, 1
 Answer:
 
 *Using revenue data*
+
 ![Q5A](https://github.com/damie0610/SQL-Project/assets/134011574/3a04776b-c5ff-4a05-b415-769b0fe835b2)
 
 *Using ordered quantity*
+
 ![Q5B](https://github.com/damie0610/SQL-Project/assets/134011574/a15f5fc0-7995-425d-b34c-2dd21c080415)
 
 
